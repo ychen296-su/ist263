@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms and Tables</title>
+        <style> 
+            td, th {border:1px solid black;}
+        </style>
+        <!--the style thing applies to all the table layouts-->
+    </head>
+    <body>
+        <h1>Tables and Forms Day</h1>
+        <h2>Tables</h2>
+
+        <table> <!--always need to add tr td th table header, table row, table data i think-->
+            <caption>World Population</caption>
+            <tr>
+                <th>Country</th>
+                <th>Population</th>
+                <th>% of World Population</th>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>1,403,830,640</td>
+                <td>18.0%</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>1,365,529,124</td>
+                <td>17.5%</td>
+            </tr>
+        </table>
+
+        <h2>Forms</h2>
+
+        <!--all form tags must be inside the form tag-->
+        <h3>Takeout Ordering</h3>
+        <form action="" method="post">
+            <label for="fullname">Full Name:</label>
+            <!--label tag is inline, not block-->
+            <input type="text" id="full name" name="full name">
+            <br>
+            <label for="orderitems">Order Items:</label>
+            <textarea id="orderitems" name="orderitems" rows="4" cols="50">you should just start typing with no space in the beginning or else it shows in your website (the white space)
+            </textarea>
+
+            <!--id uniquely identifies tag on HTML page-->
+            <input type="radio" id="pickup1" name="pickup" value="pickup">
+            <label for="pickup1">pickup</label>
+            <input type="radio" id="pickup2" name="pickup" value="delivery">
+            <label for="pickup2">delivery</label><br>
+
+            <input type="checkbox" id="ketchup" name="ketchup" value="extra ketchup">
+            <label for="ketchup">Do you want extra ketchup?</label><br>
+            <input type="checkbox" id="mustard" name="mustard" value="extra mustard">
+            <label for="mustard">Do you want extra mustard?</label><br>
+
+            <label for="location">Delivery Location:</label><br>
+            <select id="location" name="location">
+                <option></option> <!--blank in the form so people can make a choice of not selecting a location-->
+                <!--accessibility helps with SEO-->
+                <option value="westcott">Westcott</option>
+                <option value="downtown">Downtown</option>
+                <option value="eastwood">Eastwood</option>
+
+            </select><br>
+
+            <input type="submit" value="Order It">
+        </form>
+    </body>
+</html>
