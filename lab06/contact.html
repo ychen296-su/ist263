@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <p>Joyce Chen</p>
+        <p>900 South Crouse Ave. Syracuse, NY 13244</p>
+        <a href="mailto:joyceyjchen@gmail.com"><p>Joyce Chen Email</p></a>
+        <a href="https://www.linkedin.com/in/joyceyjchen/"><img src="../images/linkedin-logosize.png" alt="LinkedIn Logo">My LinkedIn Profile</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0557507620606!2d-76.13914098444926!3d43.04025847914699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1675350727732!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <h1>Contact Me</h1>
+    <form action="https://formspree.io/f/meqwagpv" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <p>Which one of the below best explains you?</p>
+        <input type="radio" id="choice1" name="choice" value="student">
+        <label for="choice1">Student</label>
+        <input type="radio" id="choice2" name="choice" value="professor">
+        <label for="choice2">Professor</label>
+        <input type="radio" id="choice3" name="choice" value="company">
+        <label for="choice3">Company Employee</label><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+
+        <input type="submit" value="Submit"> <br>
+    </form>
+    </body>
+</html>

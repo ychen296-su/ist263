@@ -1,0 +1,10 @@
+body {
+    font-family: Georgia, serif;
+}
+h1, h2 {
+    color:cornflowerblue;}
+.evenrow {
+    background-color:beige;
+}
+h1 {font-size: 2.5em}
+h2 {font-size: 1.8em}
