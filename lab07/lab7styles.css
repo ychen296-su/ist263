@@ -1,0 +1,27 @@
+body {
+    background-color: #C3ACD0;
+}
+nav {
+    background-color: #FADFDF;
+}
+nav a {
+    color: #7a74bf;
+}
+nav a:hover {
+    background-color: #e0d0ef;
+}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px;}
+p, ul, table, form {
+    color:#FDEBED;}
+h1, h2 {
+    color: #FFFBF5;
+}
+a {
+    color: #EBC7E6;
+}
+a:hover {
+    color: #FADFDF;
+}
