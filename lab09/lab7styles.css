@@ -1,0 +1,54 @@
+body {
+    background-color: #C3ACD0;
+}
+nav {
+    background-color: #FADFDF;
+}
+nav a {
+    color: #7a74bf;
+}
+nav a:hover {
+    background-color: #e0d0ef;
+}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px;}
+p, ul, table, form, div {
+    color:#FDEBED;}
+h1, h2 {
+    color: #FFFBF5;
+}
+a {
+    color: #EBC7E6;
+}
+a:hover {
+    color: #FADFDF;
+}
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+p {
+    padding: 10px;
+    margin: 30px;
+}
+img {
+    width: 80px;
+}
+.icons {
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+}
+.otherskills {
+    background-color: #c35f5f;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+section {
+    display: flex;
+}

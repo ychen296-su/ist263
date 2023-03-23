@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering</title>
+    <style>
+        p {
+            text-align: center;
+        }
+        .bluebackground {
+            background-color: cornflowerblue;
+        }
+        /* doesn't work without a width, margin 0 auto means 0 on top and bottom, equal space on left and right */
+        div {
+            width: 50%;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        h1 {
+            margin: 0 auto;
+        }
+        section {
+            border: 2px dashed #000000;
+            display: flex; /*only use display flex when there's columns?*/
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="bluebackground">Centering</h1>
+    <h2>Centering Text</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet soluta illo minima adipisci aut ut incidunt rem doloribus repellat nobis! Tenetur, rerum eveniet nostrum quisquam consectetur eligendi architecto deserunt rem!
+    </p>
+    <h2>Centering Block Level Items</h2>
+    <div class="bluebackground">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi, voluptatibus non quibusdam excepturi beatae iusto, iure facilis, adipisci vitae ipsum ut minus reprehenderit dicta consequuntur! Quis, distinctio ipsa! Odio.
+    </div>
+    <h2>Flexbox Centering Hack</h2>
+    <section>
+    <img src="../images/otto.png">
+    </section>
+    </p>
+</body>
+</html>
