@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+            <!--#1 technique for responsive design - don't fit page to device - will make it too tiny-->
+        <title>Unit 10 Notes Responsive Design</title>
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            .row1 { 
+                padding: 80px;
+                margin-top: 40px;}
+            .row1 div {
+                padding: 40px;
+            }
+            .banner {width: 100%} /*not going to let image exceed size of screen. will adjust as you scroll*/
+            .bannersmall {max-width: 100%} /* #2 - max-width - will not scale the image bigger than it is. won't scale larger than file size */
+            .row1 {display: flex; /* making the numbers align into a row */
+                flex-wrap: wrap;
+                } 
+            .row1 div {
+                flex: 1; /* #3 - wrapping flex boxes */
+            }
+
+            @media only screen and (max-width: 800px) {
+                body {background-color:orange;}
+                .banner {display: none;} /* when it's small it flips to the small image*/ 
+            }
+            @media only screen and (min-width: 801px) {
+                .bannersmall {display: none;} /* takes an element off screen */ 
+                /* when viewpoint is large we have the large image - this is talking about the two banner photos that were given*/
+            }
+            /* #4 technique - media queries - change styling for different sizes */
+        </style>
+    </head>
+    <body>
+
+        <h1>Flexbox</h1>
+
+        <!-- large width banner image -->
+        <img src="https://laferger.github.io/ist263/images/forever_orange.jpg" alt="large campus banner" class="banner">
+
+        <!-- smaller width banner image -->
+        <img src="https://laferger.github.io/ist263/images/forever_orange_small.jpg" alt="small campus banner" class="bannersmall">
+        
+        <!-- this row is coming from https://www.syracuse.edu/about/ -->
+        <div class="row1">
+            <div class="box1">
+                <img src="https://laferger.github.io/ist263/images/eighty-percent-numeral-800x533.png" alt="80 percent"><br>
+                <p>80% of Syracuse University students received some form of financial support totaling more than $414 million (2019-2020 data)</p>
+            </div>
+            <div class="box2">
+                <img src="https://laferger.github.io/ist263/images/eighty-seven-percent-800x533.png" alt="80 percent">
+                <p>87% placement outcome (Graduates in full-and part-time positions, military service, volunteer or service programs, and graduate school.)</p>
+            </div>
+            <div class="box3">
+                <img src="https://laferger.github.io/ist263/images/ninety-percent-800x533.png" alt="80 percent">
+                <p>Positions related to Career Goals</p>
+            </div>
+        </div>
+
+    </body>
+</html>
