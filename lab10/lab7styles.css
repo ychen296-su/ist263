@@ -53,10 +53,20 @@ section {
     display: flex;
 }
 .banner {max-width: 100%;}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
 .row2 {
     display: flex; 
     flex-wrap: wrap;
 }
 .row2 div {
     flex: 1;
+}
+@media only screen and (max-width: 600px) {
+    nav a {width: 100%;
+    display: block;}
+    span {display: none;}
 }
