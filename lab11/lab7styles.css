@@ -1,0 +1,83 @@
+body {
+    background-color: #C3ACD0;
+}
+nav {
+    background-color: #FADFDF;
+}
+nav a {
+    color: #7a74bf;
+}
+nav a:hover {
+    background-color: #e0d0ef;
+}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px;}
+p, ul, table, form, div {
+    color:#FDEBED;}
+h1, h2 {
+    color: #FFFBF5;
+}
+a {
+    color: #EBC7E6;
+}
+a:hover {
+    color: #FADFDF;
+}
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+p {
+    padding: 10px;
+    margin: 30px;
+}
+.icons {
+    width: 80px;
+}
+.icons {
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+}
+.otherskills {
+    background-color: #c35f5f;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+section {
+    display: flex;
+}
+.banner {max-width: 100%;}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.row2 {
+    display: flex; 
+    flex-wrap: wrap;
+}
+.row2 div {
+    flex: 1;
+}
+@media only screen and (max-width: 600px) {
+    nav a {width: 100%;
+    display: block;}
+    span {display: none;}
+}
+.skip {
+    background-color: rgb(247, 148, 148);
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none; /*removes the underline*/
+    position: absolute; /*positioned relate to the top left corner*/
+    left: -999px; /*this removes it from the screen*/ /*making it disappear, off the screen. a convention for web developers*/
+    top: 30px; /*pushes it down slightly */
+}
+.skip:focus {
+    left: 10px; }

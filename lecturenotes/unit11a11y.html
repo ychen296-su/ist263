@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>A11y</title> <!--accessibility = a11y -->
+    <style>
+        .skip {
+            background-color: rgb(247, 148, 148);
+            padding: 5px;
+            border: 1px solid #000000;
+            text-decoration: none; /*removes the underline*/
+            position: absolute; /*positioned relate to the top left corner*/
+            left: -999px; /*this removes it from the screen*/ /*making it disappear, off the screen. a convention for web developers*/
+            top: 30px; /*pushes it down slightly */
+        }
+        .skip:focus {
+            left: 10px; 
+            /* pseudo selector, when the tab key is used */
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <a href="#main" class="skip" tabindex="1">Skip to Content</a> <br> <!--bookmark tags take you somewhere on the page, eg. back to top button--> <!--links to ID tags-->
+        <a href="http://www.syr.edu" tabindex="1">syr.edu</a> <br> <!--press tab to go through the accessibility order-->
+        <a href="http://ischool.syr.edu" tabindex="3">iSchool</a> <br>
+        <a href="http://soe.syr.edu" tabindex="2">School of Education</a>
+    </section>
+
+    <section>
+        <h1>About Syracuse</h1>
+        <p id="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minima omnis tenetur, ipsa minus mollitia adipisci explicabo dolorum possimus reiciendis in expedita veritatis rerum, corporis voluptates quod ab officiis maiores!</p>
+    </section>
+</body>
+</html>
