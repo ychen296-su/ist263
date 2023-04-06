@@ -1,5 +1,5 @@
 body {
-    background-color: #C3ACD0;
+    background-color: #3c3072;
 }
 nav {
     background-color: #FADFDF;
@@ -15,9 +15,9 @@ nav {
 }
 nav {margin-bottom: 30px;}
 p, ul, table, form, div {
-    color:#FDEBED;}
+    color:#E1DBDB;}
 h1, h2 {
-    color: #FFFBF5;
+    color: #E1DBDB;
 }
 a {
     color: #EBC7E6;
