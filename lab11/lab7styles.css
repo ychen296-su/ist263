@@ -5,16 +5,16 @@ nav {
     background-color: #FADFDF;
 }
 nav a {
-    color: #7a74bf;
+    color: #3529b7;
 }
 nav a:hover {
-    background-color: #e0d0ef;
+    background-color: #59575b;
 }
 nav {
     padding: 10px;
 }
 nav {margin-bottom: 30px;}
-p, ul, table, form, div {
+p, ul, table, form, div, footer {
     color:#E1DBDB;}
 h1, h2 {
     color: #E1DBDB;
