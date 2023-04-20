@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True False Question</title>
+    <script>
+        function wrongAnswer() { /*when double quotes outside only inner quotes inside */
+            document.getElementById("wrong").innerHTML = "True - <span style='color: red;'>is incorrect</span>"
+        }
+        function rightAnswer() { 
+            document.getElementById("right").innerHTML = "False - <span style='color: green;'>is correct</span>"
+        }
+    </script>
+</head>
+<body>
+    <p>
+        JavaScript and Java are the same thing.
+    </p>
+    <p id="wrong" onclick="wrongAnswer()">True</p>
+    <p id="right" onclick="rightAnswer()">False</p>
+</body>
+</html>

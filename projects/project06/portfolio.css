@@ -63,15 +63,11 @@ h1 p {
     font-size: 24px;
 }
 /* footer css */
-footer div {
+.footer {
     display: flex;
     justify-content: space-between;
     margin: 15px;
     padding: 5px;
-}
-footer img {
-    display: flex;
-    align-items: center;
 }
 footer a {
     color:rgba(55, 50, 50, 0.76)
