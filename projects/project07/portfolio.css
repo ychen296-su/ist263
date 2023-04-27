@@ -58,9 +58,11 @@ h2 {
 h1 {
     padding: 60px;
     margin: 50px;
+    font-family: 'Playfair Display', serif;
 }
 h1 p {
     font-size: 24px;
+
 }
 /* footer css */
 .footer {
