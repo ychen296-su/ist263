@@ -3,7 +3,6 @@ nav {
     margin: 1em;
     float: right;
     color: #7c4b23;
-    font-family: 'Lora', serif;
 }
 nav a {
     color: #7c4b23;
@@ -15,12 +14,10 @@ nav a:hover {
     padding: 20px;
     margin: 1em;
     color:rgba(116, 71, 17, 0.76);
-    font-family: 'Lora', serif;
 }
 /* home page css -----*/
 h2 {
     text-align: center;
-    font-family: 'Lora', serif;
 }
 /*.recentwork {
     display: flex;
@@ -42,7 +39,6 @@ h2 {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    font-family: 'Lora', serif;
 }
 .project a {
     color: #583636;
@@ -60,8 +56,8 @@ h2 {
     width: 100%
 }
 h1 {
-    padding: 30px;
-    margin: 30px;
+    padding: 60px;
+    margin: 50px;
     font-family: 'Playfair Display', serif;
 }
 h1 p {
@@ -74,15 +70,14 @@ h1 p {
     justify-content: space-between;
     margin: 15px;
     padding: 5px;
-    font-family: 'Lora', serif;
 }
-.footer a {
+footer a {
     color:rgba(55, 50, 50, 0.76)
 }
 /* website background */
 body {
     background-color:rgb(230, 216, 200);
-    font-family: 'Lora', serif;
+    font-family: Garamond, serif;
 }
 /*resume css*/
 .resumetitle {
@@ -99,11 +94,10 @@ body {
     display: flex;
     padding: 60px;
     margin: 10px;
-    font-family: 'Lora', serif;
 }
 
-.skillsedu div {
-    font-family: 'Lora', serif;
+.extra {
+    margin-left: 10px;
 }
 .rows, .resumetitle {
     padding: 60px;
@@ -112,10 +106,6 @@ body {
 }
 .extra {
     margin-left: 100px;
-    font-family: 'Lora', serif;
-}
-.worktitle {
-    font-family: 'Playfair Display', serif;
 }
 /*work css*/
   * {box-sizing: border-box}
@@ -205,31 +195,4 @@ img {vertical-align: middle;}
 .work {
     padding: 20px;
     margin: 20px;
-    font-family: 'Lora', serif;
-    font-size: 17px;
 }
-.work a {
-    color: #583636;
-}
-.work a:hover {
-    background-color:rgba(246, 232, 232, 0.76);
-}
-.tmi {
-    display: flex;
-    flex-direction: row-reverse; /* reverses the order of the flex items */
-  }
-  
-  .tmi img {
-    max-width: 600px; /* adjust as needed */
-    margin-left: 20px; /* adds some spacing between the images */
-  }
-  
-  .tmi > div {
-    flex: 3; /* makes the text fill the remaining space */
-  }
-  
-  @media (max-width: 768px) {
-    .tmi {
-      flex-direction: column; /* switches to a column layout on mobile */
-    }
-  }
