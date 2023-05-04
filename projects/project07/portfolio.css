@@ -60,13 +60,12 @@ nav a:hover {
     width: 100%
 }
 h1 {
-    padding: 30px;
-    margin: 30px;
+    padding: 50px;
+    margin: 40px;
     font-family: 'Playfair Display', serif;
 }
-h1 p {
+h1 {
     font-size: 24px;
-
 }
 /* footer css */
 .footer {
@@ -98,7 +97,7 @@ body {
     font-family: 'Lora', serif;
   }
   .skillsedu > div {
-    width: calc(50% - 10px); /* adjust as needed */
+    width: calc(50% - 5px); /* adjust as needed */
   }
   .skillsedu div {
     font-family: 'Lora', serif;
@@ -276,4 +275,8 @@ img {vertical-align: middle;}
 }
 .projecttitle {
     text-align: left;
+}
+h2 {
+    text-align: center;
+    font-family: 'Lora', serif;
 }
