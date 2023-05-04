@@ -84,46 +84,7 @@ body {
     background-color:rgb(230, 216, 200);
     font-family: 'Lora', serif;
 }
-/*resume css*/
-.rows {
-    display: flex;
-  }
-  .rows div{
-    flex: 1;
-  }
-  .skillsedu {
-    display: flex;
-    padding: 60px;
-    margin: 10px;
-    font-family: 'Lora', serif;
-  }
-  .skillsedu > div {
-    width: calc(50% - 10px); /* adjust as needed */
-  }
-  .skillsedu div {
-    font-family: 'Lora', serif;
-  }
-  .rows {
-    padding: 25px;
-    margin: 50px;
-    font-family: 'Lora', serif;
-  }
-  .resumetitle {
-    padding: 25px;
-    margin: 50px;
-    font-family: 'Playfair Display', serif;
-    font-size: large; 
-    display: flex;
-    justify-content: space-between;
-  }
-  .extra {
-    margin-left: 100px;
-    font-family: 'Lora', serif;
-  }
-  .worktitle {
-    font-family: 'Playfair Display', serif;
-  }
-  
+
 /*work css*/
   * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -273,4 +234,44 @@ img {vertical-align: middle;}
 .skip:focus {
     left: 10px; 
     /* pseudo selector, when the tab key is used */
+}
+
+/*resume css*/
+.rows {
+  display: flex;
+}
+.rows div{
+  flex: 1;
+}
+.skillsedu {
+  display: flex;
+  padding: 60px;
+  margin: 10px;
+  font-family: 'Lora', serif;
+}
+.skillsedu > div {
+  width: calc(50% - 10px); /* adjust as needed */
+}
+.skillsedu div {
+  font-family: 'Lora', serif;
+}
+.rows {
+  padding: 25px;
+  margin: 50px;
+  font-family: 'Lora', serif;
+}
+.resumetitle {
+  padding: 25px;
+  margin: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: large; 
+  display: flex;
+  justify-content: space-between;
+}
+.extra {
+  margin-left: 100px;
+  font-family: 'Lora', serif;
+}
+.worktitle {
+  font-family: 'Playfair Display', serif;
 }
