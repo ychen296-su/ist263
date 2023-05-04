@@ -274,3 +274,6 @@ img {vertical-align: middle;}
     left: 10px; 
     /* pseudo selector, when the tab key is used */
 }
+.projecttitle {
+    text-align: left;
+}
